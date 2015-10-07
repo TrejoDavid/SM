@@ -1,0 +1,184 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+/* HERE STARTS THE MAGIC */
+header {
+    text-align: center;
+    color: black;
+    background: white;
+    position: fixed;
+    width:100%;
+    z-index: 1;
+    height: 88%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.content-wrapper{
+    background-color: #80322C;
+    top: 87%;
+    min-height: 12%;
+    position:absolute;
+    z-index: 2;
+    width: 100%;    
+}
+/* HERE ENDS THE MAGIC */
+header .container {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+ 
+body{
+  background-color:#9F9BC2;
+  margin-top: 70px;
+  color: white;
+}
+
+
+
+.well {
+  background-color: #bdc3c7;
+  border: 1px solid #bdc3c7;
+} 
+
+
+/* NAVIGATION BAR */
+
+  .navbar-default .navbar-brand:hover, 
+  .navbar-default .navbar-brand:focus {
+    color: white;
+    background-color: none;
+  }
+
+
+.navbar-default .navbar-brand {
+    color: #fff;
+  }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default {
+background-color: #283980;
+border-color:#283980;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #A8AA8;
+  background-color: transparent;
+}
+
+
+
+/* San Miguel Logo and Text */
+
+.text {
+  float: right;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.sub-text {
+  text-indent: 13px;
+  font-size: 18px;
+}
+
+
+.logo-size {
+  height: 100px;
+  width: 100px;
+}
+
+
+.navbar-nav {
+  margin: 18px 0;
+}
+
+@media(max-width: 992px){
+  .text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.sub-text {
+  text-indent: 25px;
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+}
+
+
+/* Content on Site */
+
+.content-margin {
+  margin-top: 120px;
+}
+
+
+/* Footer */
+address {
+  font-size: 10px;
+}
+
+/* Social Media */
+
+.fa-facebook-square,.fa-twitter-square, .fa-flickr {
+  color: white;
+}
+
+
+
+
+h2 {
+  text-decoration: underline; 
+}
+
+
+
+.footer-height {
+  min-height: 25px;
+
+}
+
+
+.navbar-brand {
+  height:80px;
+   list-style-type: none;
+}
+
+.subtext {
+  font-size: 12px;
+  line-height: 8px;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover{
+        /*border-bottom: 2px solid white;*/
+        color: white;
+    }
+
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #9F9BC2;
+    color:#ffffff;
+  }
+
+
+@media (max-width: 768px){
+    .navbar-default .navbar-nav > li > a:hover{
+        background-color: white;
+        color:black;
+    }
+}
